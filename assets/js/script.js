@@ -42,7 +42,7 @@ function change(){
 }
 
 function scrolls(){
-	if (window.pageYOffset > document.getElementById("imaf").offsetTop - 500) {
+	if (window.pageYOffset > document.getElementById("imaf").offsetTop - 450) {
 		document.getElementById("cover1").classList.add("anim");
 		document.getElementById("cover2").classList.add("anim");
 		document.getElementById("cover3").classList.add("anim");
