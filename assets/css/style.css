@@ -16,9 +16,14 @@ h1{
 h2{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
-	line-height: 49px;
+	line-height: 40px;
 	font-weight: 600;
 }
+
+h3{
+	font-size: 18px;
+}
+
 
 a{
 	text-decoration: none;
@@ -176,7 +181,6 @@ hr{
 	margin-bottom: 42px;
 	position: relative;
 }
-
 .images img:last-child{
 	margin-right: 0;
 }
@@ -396,4 +400,53 @@ input:checked[type="checkbox"]:before{
 	100%{
 		opacity: 100%;
 	}
+}
+
+.news{
+	text-align: center;
+	max-width: 1170px;
+	margin: 0 auto;
+	margin-bottom: 250px;
+}
+
+.news p{
+	margin: 30px 0 50px 0;
+}
+
+.news_block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.igh{
+	max-width: 354px;
+	text-align: left;
+}
+
+.igh img{
+	border-radius: 15px 15px 0px 0px;
+}
+
+.igh p{
+	padding: 10px 0 30px 0	;
+}
+
+.small{
+	font-size: 14px;
+}
+
+.but{
+	color: #8200E8;
+	height: 28px;
+	width: 83px;
+	border: solid 2px #8200E8;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 14px;
+	margin: 17px 0 0 0;
+}
+
+.green{
+	color: #00E817;
+	border-color: #00E817;
 }
